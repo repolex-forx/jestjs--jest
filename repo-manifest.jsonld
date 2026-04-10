@@ -1869,8 +1869,9 @@
     {
       "@id": "https://repolex.ai/r/jestjs/jest/commit/d347c0f3f87f976a1dbd9761d503e45f5ced2a7e",
       "git:hexsha": "d347c0f3f87f976a1dbd9761d503e45f5ced2a7e",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v30.1.1"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v30.1.1",
+      "repolex:parsedAt": "2026-04-10T05:12:01.242196+00:00"
     },
     {
       "@id": "https://repolex.ai/r/jestjs/jest/commit/ebfa31cc9787303e8698a1a029a162a18e8974aa",
