@@ -1,0 +1,17 @@
+[2026-04-17T03:19:15Z] === ENRICH ITERATION 4 START | repo=jestjs/jest sha=67c1aa20 ===
+[2026-04-17T03:19:15Z] [iter=4] PHASE START: enrich repo=jestjs/jest sha=67c1aa20 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/67c1aa20-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz
+[2026-04-17T03:20:00Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-04-17T03:21:39Z] [iter=4] AST store loaded triples=9309439 load_secs=97 mem_mb=1088 MB
+[2026-04-17T03:21:39Z] [iter=4] Step 2: Finding LSP targets mem_mb=1088 MB
+[2026-04-17T03:21:49Z] [iter=4] LSP targets found call_sites=81315 imports=2227 extends=133 implements=9 secs=10
+[2026-04-17T03:21:53Z] [iter=4] Loaded checkpoint partial graph triples=98540
+[2026-04-17T03:21:58Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1088 MB
+[2026-04-17T03:22:48Z] [iter=4] Position index built positions=604380 nodes_with_types=724270 secs=49 mem_mb=1835 MB
+[2026-04-17T03:22:48Z] [iter=4] Step 3: Starting LSP resolution mem_mb=1835 MB already_completed_types=[] already_completed_files=0
+[2026-04-17T03:22:48Z] [iter=4] Resolving target type target_type=call_site count=81315
+[2026-04-17T03:22:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=0 resolved=0 errors=0 current=.yarn/releases/yarn-2.4.3.cjs
+[2026-04-17T07:00:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=221.6 files_done=1 resolved=701 errors=4348 current=.yarn/plugins/@yarnpkg/plugin-interactive-tools.cjs
+[2026-04-17T07:19:20Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=1 new_files_this_iter=1 mem_mb=1874 MB
+[2026-04-17T07:19:20Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz triples=119384
+[2026-04-17T07:19:21Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-04-17T07:19:21Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=14404 elapsed_min=240.1 files_completed=1

@@ -1,19 +1,21 @@
 {
   "commit_sha": "67c1aa20c5fec31366d733e901fee2b981cb1850",
-  "completed_files": [],
+  "completed_files": [
+    ".yarn/releases/yarn-2.4.3.cjs"
+  ],
   "completed_types": [],
   "stats": {
     "graph_uri": "https://repolex.ai/r/jestjs/jest/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850",
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/67c1aa20c5fec31366d733e901fee2b981cb1850.nq.gz",
     "call_sites": 81315,
     "import_statements": 2227,
-    "call_targets_resolved": 6148,
+    "call_targets_resolved": 7615,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 11431,
+    "errors": 16147,
     "extends_clauses": 133,
     "implements_clauses": 9,
     "import_modules_denormalized": 2227,
@@ -21,5 +23,5 @@
     "extends_class_denormalized": 106,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14431
+  "elapsed_seconds": 14404
 }
